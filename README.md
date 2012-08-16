@@ -1,4 +1,7 @@
-silverstripe-markdowneditorfield-extensions
-===========================================
+# Extensions for the MarkdownEditor Field
 
-Extensions for the markdowneditorfield
+This is currently work in progress.
+
+## Requirements
+
+* Silverstripe 3 & the [MarkdownEditor Field](https://github.com/wolfv/silverstripe-markdowneditorfield)
