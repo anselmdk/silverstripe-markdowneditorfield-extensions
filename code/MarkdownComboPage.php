@@ -1,7 +1,7 @@
 <?php
 /**
  * Markdown Combo Page
- * This page type allows for editing both
+ * This page type allows for editing pages in both Markdown and ordinary HTML (Through Silverstripe's TinyMCE)
  *
  * TODO: Javascript that auomatically changes `ContentFormat` based on the selected tab.
  *
@@ -37,7 +37,7 @@ class MarkdownComboPage extends SiteTree {
 			)
 		);
 		
-		//adding the "stacked" class for giving more space
+		//Adding the "stacked" class for giving more space
 		$htmlField->addExtraClass('stacked');
 		$markdownField->addExtraClass('stacked');
 		$fields->addFieldToTab('Root.Main', $tabs, "Metadata");
